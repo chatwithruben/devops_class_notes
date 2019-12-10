@@ -1,0 +1,28 @@
+created a centos instance in aws. 
+
+then downloaded jdk8 seperately from oracle.com
+
+copied jdk8 to centos instance. 
+
+mv it to /opt/
+
+install jdk using rpm command
+
+sudo rpm -ivh jdkfilename
+
+java -version
+
+add java path in /etc/profile using below method at the end of file
+
+to get the path, 
+sudo alternetives --config java
+
+then add the path in /etc/profile
+export JAVA_HOME=***javahomepath***
+
+source /etc/profile
+
+and java -version
+
+
+export

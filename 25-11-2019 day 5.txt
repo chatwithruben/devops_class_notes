@@ -1,0 +1,7 @@
+conflict. 
+
+-->before push, we have to pull the changes from the remote. then only we can do the pushes.
+
+git clone GITURL --> clones the repo from remote
+
+should not clone inside another GIT

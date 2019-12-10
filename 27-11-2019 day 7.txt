@@ -1,0 +1,16 @@
+git branch --> shows branch
+
+branch is helping us to save the pruduction code with of dvelopment code
+
+testing can be done with dev code(dev branch).
+
+main branch and supporting branches. 
+
+main branch is the dev branch and the master branch. 
+
+supporting branch is feature and bug fix branch.
+
+git merge branchname --> merges two branches. 
+
+the branch which is mentioned will get merged with the current branch. 
+

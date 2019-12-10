@@ -1,0 +1,27 @@
+git tag --> it is a readable kind of branch where we have a backup just like a hard copy. We cant write in this tag. WE cannot change anythng once this is created.
+
+git checkout tagname -->checkouts to the branch with the tag
+
+
+git tag -->lists out the tags in the repo
+
+git tag tagname --> creates a tag for the current branch
+
+git push origin tagname -->pushes the tags to remote
+
+
+
+###############################AWS GIT ############
+
+login aws
+search ec2
+create key pair
+create security group
+launch instance
+select redhat
+
+
+74 hours pr month is free
+
+
+

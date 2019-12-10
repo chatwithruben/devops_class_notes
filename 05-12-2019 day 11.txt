@@ -1,0 +1,108 @@
+################MAVEN######################
+
+Maven is a tool which compiles. It is a compilation tool which is used to compile only java projects. It wont support any other languages.
+It will compile and create packages like binarys.
+
+Ant is also a build tool, --> old tool of Maven. 
+
+Vendor is apache for both Maven and Apache. 
+it works with a build file. 
+In Ant it is knwon as build file. 
+
+In Maven it builds a build file first which is named as pom file. 
+pom --> project object model
+
+main things in pom
+groupid
+artifactid
+version
+
+1.src folder
+2.pom.xml
+
+src contains all our java files.
+
+we will run the pom file. 
+
+
+Maven is a softwarerpoject  management and a comprehensive tool. 
+
+
+Maven can manage project builds, reporting on documentation from central piece of information. 
+
+Using Maven we can build and manage any java based project. 
+
+Maven provides developers a complete build life cycle framework.
+
+Development team can automate the project build infrastructure in almost no time as maven uses standard layout directory and a default build life cycle.
+
+Maven provides developers way to manage the following.
+1.BUild
+2.documentation
+3.reports.
+4.Handle dependency
+5.Mailing lists.
+
+It simplifies and standardises the project build process.(Conventional over configuration)
+
+Developers are not required to create a build process by them because maven already creates the templates.
+
+Developers do not have to mention each and every configuration details.
+
+Maven provides sensible default behaviour for all projecrts. 
+
+When maven project is created, it creates a default folder structure.
+
+Developers is only required to place the files accordingly and need not put any configuration in pom.xml
+
+release version format
+1.0.0
+major.minor.bugfix|patch
+
+POM.(Project object Model)
+
+It is a fundemental unit of work in maven. 
+It is an xml filethat resides in the base directory as pom.xml
+Pom contains information about the project and various configuration details used by maven to build the project. 
+
+Pom also contains the goals(tasks) and plugins(Just like integration with other plugins).
+
+While executing a task or goal, Maven looks for the pom in current directory. 
+
+It reads the POM, get the needed configuration information and execute the goals.
+
+
+$$$ Groupid and artifact id.$$$
+
+group id will be almost like organisation name
+artifact id will be applicatoin name.
+Version
+
+$$$Maven Build Lifecycle.
+
+Build life cycle is a well defined sequence of phases which defines the order in which the goals are to be executed. 
+
+3 lifecycle stages
+-Clean,
+-Default, 
+-Site
+
+mvn package -->it is default
+with default it comes all these process
+1.Validate pom file
+2.initialize maven build
+3.compile
+4.test compile
+5.junit test cases
+6.package 
+7.install
+
+mvn clean package
+
+cleans the previous build and so a fresh build
+
+mvn clean package site --> this creates documentation of the application with all the details(dependency, plugins summary etc)
+
+mvn compile --> it creates the .class files after compiling. it will also create target folder but not the war file.
+
+mvn test --> does all the above till step 4 

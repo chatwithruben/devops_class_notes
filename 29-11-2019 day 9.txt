@@ -1,0 +1,20 @@
+#################AWS################
+
+for converting pem to pkk
+
+
+1.open puttygen and load the .pem file
+2.Save private key by giving name.
+3.open putty
+4.copy paste ip
+5.click connections and change from 0 to 1 so that system wont terminate when it is idle
+6.clisk on ssh and on auth and load the converted ppk file
+7.again go to session and give name and save
+8.open the named connection.
+9.each time check the new ip, change the ip and load. 
+
+#######install git####### in linux
+
+sudo yum install git 
+
+git --version

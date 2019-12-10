@@ -1,0 +1,15 @@
+git clone URL --> bring al the files to our local.
+
+git clone --mirror URL --> brings the BARE information files (not our actual files) to our local. THis helps in migration from one repository to version control.
+
+
+once cloned we have to follow below steps.
+1.git clone --mirror URL
+2. Go to the other version control repository and copy the URL of the repository. 
+3. git remote add GITLAB URL --> adds remote of gitlab
+4. git push gitlab --all --> copies all the files from al the branch to new Repo
+5. git push gitlab --tags --> copies all the tags to other repo
+
+
+
+

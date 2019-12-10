@@ -1,0 +1,43 @@
+installing maven
+
+get download url from maven site.
+
+use .tar
+
+sudo wget url
+
+untar file
+
+
+sudo mv apache to maven
+sudo vi /etc/profile.d/maven.sh
+
+export M2_HOME=/opt/maven
+export PATH=${M2_HOME}/bin:${PATH}
+
+
+
+mvn archetype:generate --> shows all maven templates
+
+maven-archetype-quickstart
+
+2  -->apache type
+
+default (8)
+
+asks to define groupid, artifact id
+
+gid--> groupid com.myapp
+artifactid --> myapp
+
+enter enter yes enter
+
+mvn package --> downloads all minimun dependency
+
+mvn package --> for building
+
+
+
+
+
+

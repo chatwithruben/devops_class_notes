@@ -1,0 +1,13 @@
+git init
+git status
+git add
+git commit -m 
+git remote
+git remote add
+git push
+
+git remote --> shows any remote connection is there
+git reset removes the staged items to unstaged
+git remote add origin https://github.com/chatwithruben/MyApplication.git --> adds remote to our git so that we can push to our central repo
+git remote -v  --> lists out the remotes with the repo url's
+

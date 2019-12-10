@@ -1,0 +1,9 @@
+GIT.
+
+
+git config --global user.name ruben
+git config --global user.email chatwithruben@gmail.com
+git status -->gives status.
+git init -->initialise local repo
+git add filename -->adds to local repo
+git commit -m "Message" --> for commiting

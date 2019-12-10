@@ -1,0 +1,14 @@
+mvn archetype:generate wil be using to listout and it shows the templates and we can select the desired one.
+
+the one which we are using is maven-archetype-quickstart
+
+after that we have to provide 
+- groupid = com.mycompany
+- artifactid = myapp
+- version = 1.0.0
+
+mvn clean package --> creates package
+
+for executing jar
+jar -cp target/my-app.jar packagename
+
