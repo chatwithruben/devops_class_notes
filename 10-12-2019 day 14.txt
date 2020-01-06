@@ -1,6 +1,6 @@
 mvn archetype:generate wil be using to listout and it shows the templates and we can select the desired one.
 
-the one which we are using is maven-archetype-quickstart
+no.1462 the one which we are using is maven-archetype-quickstart
 
 after that we have to provide 
 - groupid = com.mycompany

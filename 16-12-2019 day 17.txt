@@ -1,0 +1,43 @@
+integrating maven with sonarqube.
+
+bring up sonarqube and maven instances. 
+
+
+Generate a toke from sonarqube UI. 
+
+login-->Myaccount-->security--> generate a token giving a name.
+
+copy and paster the token. (One time generate token and one time viewable)
+
+after this got to maven instance.
+
+go inside the project and do mvn package. 
+
+after that we are publishing to sonar for code quality checks
+
+mvn package user:group -Dsonar.host.url=sonarqubeurl:9000 -Dsonar.login=tokenwhichwegenerated
+
+mvn package sonar:sonar -Dsonar.host.url=http://13.58.77.73:9000/ -Dsonar.login=03f251fd68b09d63d9c48333c088ecd634d598e5
+
+once this is done our project is now linked with sonarqube.
+
+
+
+We can set criterias and rules for quality checks in sonarqube.
+
+Rules-->Quality Profiles
+rules means things which should be followed by developers in the code. 
+
+quality checks--> quality gate
+coverage should 90% and above
+duplications should be 10% or less. 
+these kind of quality gate checks can be set for our code. 
+
+set rules from Quality profiles
+
+Create new quality profile from quality profile. 
+add new rules to the profile. 
+
+then we should run the command to trigger sonarqube again to make effect the changes. 
+
+refresh sonarqube UI to see the changes and comparison between old and new changes

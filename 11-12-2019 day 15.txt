@@ -1,0 +1,11 @@
+there are 3 repository for mvn.
+
+mvn package --> it searches the plugins with the below order.
+
+1. .m2 is loca repo
+
+2. remote repo
+
+3. central repo
+
+all the plugins are being downloaded from all these repos.

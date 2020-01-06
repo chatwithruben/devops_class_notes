@@ -1,0 +1,59 @@
+Jenkins.
+
+continuos integration tool. 
+
+it integrates the tools to form a pipeline. 
+
+it helps to automate deployment process. 
+
+Jenkins is developed using Java. 
+
+It has lots of pluggins which can be downloaded to integrate. 
+
+Jenkins installation. 
+ ** windows
+	1.as service. 
+	2.Run as package. 
+	3.Deploy in webApplication.
+
+
+installation of jenkins. 
+
+download tomcat so that we can host jenkins in that webserver applicaton.
+
+download tomcat from tomcat site.(copy download tar file address). 
+
+got to /opt
+and use sudo wget downloadurl 
+untar the tar file. 
+rename to apache. 
+and run the startup.sh as sudo
+
+
+default port number of tomcat is 8080
+
+Now download jenkins from jenkins website. 
+
+get the generic java package link and copy it. 
+
+use wget is sudo mode and download the jenkins.war
+
+Now move the downlaoded jenkins.war to /opt/webapps/
+
+sudo mv jenkins.war apache/webapps/
+
+After moving jenkins is hosted in apache. 
+
+open browser and check 
+
+http://centosip:8080/jenkins/
+
+follow the instructions in the jenkins UI and give the first time password using cat and display the file. 
+jenkins username: ruben
+jenkins password: ruben
+
+
+
+
+
+.

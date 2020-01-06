@@ -1,0 +1,10 @@
+Manage nodes in jenkins.
+
+Distributing projects according to project demands
+load balancing or windows or android needed can be added as node. 
+
+
+
+
+enable agent in global security to random
+

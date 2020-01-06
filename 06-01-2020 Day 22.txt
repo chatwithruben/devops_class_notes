@@ -1,0 +1,53 @@
+Jobs.
+
+freestyle,
+pipiline.
+
+we chose freestyle.
+
+it has 6 tabs.
+Discard old builds -->discards old build.
+
+This project is parameterized	--> building jobs with parameters
+
+
+Execute concurrent builds if necessary --> can build jobs paralally.
+
+Restrict where this project can be run	--> Node on which job should run
+
+
+2. Source code management. 
+
+We can add the git url, credentials and other details in this tab. 
+
+--> build trigger. 
+
+
+
+build periodically. 
+
+trigger jobs periodically whether there is other commits or not.
+cron job (https://crontab.guru/)	
+
+poll scm --> builds only wheen there is any change or commit. 
+
+-> trigger build remotely. 
+https://www.guidgenerator.com/
+
+build the url.
+http://3.17.61.184:8080/jenkins/job/new_job/build?token=99e1e353-8040-481d-9476-3d8a1677fe50
+
+-> build hook trigger. 
+
+build when any commits happen. 
+
+
+
+###build##
+ invoke top-level Maven targets
+
+select maven version and type goals. 
+
+goal : clean package
+
+and build

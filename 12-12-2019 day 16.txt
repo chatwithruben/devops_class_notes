@@ -1,0 +1,58 @@
+Sonarqube
+
+It checks the code quality. 
+supports more than 20 languages.
+
+two editions.
+CE
+EE
+
+Latest verison of sonarqube requires java 11 minimum. 
+
+It is a java based application.
+
+need t2.mediuim  --> 2GB ram needed
+1 core cpu with 2gb ram. 
+
+We can run sonarqube as root or administrator. 
+because it uses elastic search. 
+
+Create a user and make it as an owner of sonarqube.
+
+**********
+inspects code quality. 
+
+**********
+
+
+install java 
+
+using  
+sudo yum install wget java unzip -y
+
+after that install sonarqube
+
+1.	cd  /opt/
+2.	sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.7.zip
+3.	sudo unzip sonarqube-6.7.zip
+4.	sudo rm -rf sonarqube-6.7.zip
+5.	sudo mv sonarqube-6.7 sonarqube
+6.	sudo adduser sonar
+7.	sudo passwd sonar
+      sonar
+8.	sudo chown -R sonar:sonar sonarqube
+9.	cd /opt/sonar/bin/linux-64/
+10.	sudo vi sonar.sh
+11.	line 48
+12.	 #RUN_as_user=
+13.	Run_as_user=sonar
+14.	Sh sonar.sh start
+
+
+once this is done hit the browser with instance ip and port
+defaut port for sonarqube is 9000
+
+http://3.133.108.197:9000/
+
+default username and password is 
+admin

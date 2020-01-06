@@ -1,0 +1,7 @@
+Quality gate in sonarqube
+............................
+
+the code covererage, code duplication, Unit case all these things will be checked and we can set the minimum and max values for this in the report inorder to pass and fail the report. 
+
+create quality gates. and same as quality profiles. 
+

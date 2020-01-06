@@ -1,0 +1,23 @@
+Jenkins
+...........................
+
+Manage jenkins. 
+
+all configuration are being done here. 
+
+Configure system -->
+	Home.Directory. --. Home path of jenkins. 
+	System Message --> Display message as announcements for all users.
+	# of executors --> parallely how many jobs can be run. 
+	Label: Name of the executor(node)
+	Usage: how to use this particular node.	
+	Quiet period: 5 seconds grace time given for cron jobs
+	SCM checkout retry count: number of times it should try for retry count(10 sec gap)
+	Restrict project naming: naming conventions can be set like GSX_ (should start with this)
+
+global propoerties:
+	Disable deferred wipeout --> deletes the target folder
+	Environment variables: we can set key and value pairs here for uusing it in jobs.
+		How to call  " echo ${key} "
+	Tool location: --> setting path for tools we are using.(ansible,git)
+	
